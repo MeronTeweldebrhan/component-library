@@ -35,6 +35,29 @@ function App() {
       >
         <p className="text-sm">You can now continue using the application.</p>
       </AlertBox>
+      <AlertBox
+        type="info"
+        message="Profile update in progress"
+        onClose={() => alert("Alert closed")}
+      >
+        <p className="text-sm">Please wait while changes are being saved.</p>
+      </AlertBox>
+      <AlertBox
+        type="warning"
+        message="Some profile details were not saved!"
+        onClose={() => alert("Alert closed")}
+      >
+        <p className="text-sm">Check your internet connection or try again.</p>
+      </AlertBox>
+<AlertBox
+        type="error"
+        message="Failed to update your profile. Please try again!"
+        onClose={() => alert("Alert closed")}
+      >
+        <p className="text-sm">If the issue persists, contact support.</p>
+      </AlertBox>
+
+
 
       <UserProfileCard
         user={user}

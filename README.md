@@ -13,6 +13,10 @@ This project demonstrates a small reusable component library built with React + 
 3. ProductDisplay
   * Displays product details (name, image, price, description, stock status) with an "Add to Cart" button.
 
+  ### Screenshot
+
+<img src="src/assets/Screenshot 2025-06-14 124534.png" alt="Component Library Screenshot">
+
 ## Folder Structure
 ```
 src/
